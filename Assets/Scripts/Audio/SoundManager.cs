@@ -6,6 +6,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip jumpClip;
     [SerializeField] private AudioClip gameOverClip;
+    
 
     void OnEnable()
     {
@@ -29,5 +30,6 @@ public class SoundManager : MonoBehaviour
     {
         if (audioSource != null && gameOverClip != null)
             audioSource.PlayOneShot(gameOverClip);
+            
     }
 }

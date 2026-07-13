@@ -17,6 +17,6 @@ MonoBehaviour:
   maxScrollSpeed: 15
   minSpawnInterval: 1.2
   maxSpawnInterval: 2.5
-  obstaclePoolSize: 6
+  obstaclePoolSize: 8
   jumpForce: 12
   scorePerSecond: 10
