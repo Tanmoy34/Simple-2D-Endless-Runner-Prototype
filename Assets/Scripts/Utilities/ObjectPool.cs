@@ -1,11 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Generic component object pool. Reused for obstacles (and could be reused
-/// for anything else that needs to avoid Instantiate/Destroy at runtime).
-/// This satisfies the "Object Pool Pattern" requirement.
-/// </summary>
+
 public class ObjectPool<T> where T : Component
 {
     private readonly Queue<T> pool = new Queue<T>();

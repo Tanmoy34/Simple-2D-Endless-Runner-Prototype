@@ -1,11 +1,6 @@
 using UnityEngine;
 
-/// <summary>
-/// Handles jump + double jump only. The player stays at a fixed X position;
-/// the world (ground + obstacles) scrolls toward the player. This keeps
-/// physics/collision simple and avoids camera-follow complexity, which
-/// matters when you're on a 2-day clock.
-/// </summary>
+
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {

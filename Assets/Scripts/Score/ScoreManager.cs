@@ -1,10 +1,6 @@
 using UnityEngine;
 
-/// <summary>
-/// Pure gameplay logic — no UI references at all. It only raises events;
-/// UIManager is the one that listens and updates text. This is the
-/// "separate gameplay logic from UI logic" requirement in practice.
-/// </summary>
+
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] private GameConfig config;

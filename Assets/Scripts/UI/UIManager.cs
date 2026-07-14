@@ -1,11 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-/// <summary>
-/// Sole owner of UI logic. Subscribes to GameEvents rather than being
-/// called directly by gameplay scripts -- gameplay has zero knowledge
-/// that UI even exists.
-/// </summary>
+
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text scoreText;
